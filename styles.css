@@ -224,3 +224,25 @@ p {
 .interest ul {
   grid-template-columns: repeat(2, 1fr);
 }
+
+.scrolltop {
+  width: 20px;
+  height: 20px;
+  position: fixed;
+  right: 20px;
+  bottom:-20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #848c99;
+  visibility: hidden;
+  z-index: 2;
+  transition: 0.4s;
+}
+
+.show-scroll {
+  visibility: visible;
+  bottom: 50px;
+}
